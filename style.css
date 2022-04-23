@@ -1,0 +1,171 @@
+/******************************************************************************
+START Glitch hello-app default styles
+
+The styles in this section do some minimal CSS resets, set default fonts and 
+colors, and handle the layout for our footer and "Remix on Glitch" button. If
+you're new to CSS they may seem a little complicated, but you can scroll down
+to this section's matching END comment to see page-specific styles.
+******************************************************************************/
+
+
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  See if you can cross-reference the rules in this file with the elements in index.html
+*/
+
+
+/******************************************************************************
+END Glitch hello-app default styles
+******************************************************************************/
+
+body {
+  font-family:verdana, arial, sans-serif;
+  
+  background-color: #fefefe;
+background-image: linear-gradient(180deg,skyblue,lightskyblue);
+  
+  margin: 5.5em;
+  color: black; 
+}
+h1{
+  font-family: verdana, arial, sans-serif;
+  color:#006666;
+}
+button{
+  color:green;
+  padding: 10px;
+  border-radius: 10px;
+}
+#gameButtonArea > button {
+  width:190px;
+  height:190px;
+  margin:2px;
+  z-index:5;
+
+}
+.hidden {
+  display: none;
+  
+}
+
+
+#stopBtn{
+  color:red;
+}
+#langBtn{
+  color:black;
+}
+#button1 {
+  background: lightgreen;
+  position:fixed;
+  left: 316px;
+  bottom: 38%;
+  
+}
+#button2 {
+    background: lightblue;
+    position:fixed;
+    bottom: 38%;
+   left: 115px;
+}
+#button3 {
+    background: pink;
+   position: fixed;
+   bottom:38%;
+  left:518px;
+ 
+}
+#button4 {
+    background: lightyellow;
+   position: fixed;
+   bottom:38%;
+  left:718px;
+
+}
+#button5 {
+    background: PeachPuff;
+   position: fixed;
+   bottom:10%;
+   left: 115px;
+ 
+}
+#button6 {
+    background: LightCyan;
+      position: fixed;
+      bottom:10%;
+      left: 316px;
+}
+
+#button7 {
+    background: Thistle;
+  position: fixed;
+  bottom:10%;
+  left:518px;
+  
+}
+#button8 {
+    background: LightSalmon;
+  position: fixed;
+   bottom:10%;
+  left:718px;
+}
+
+#button1:active, #button1.lit,#lucky{
+  
+    background:green;
+
+  
+}
+
+
+#button2:active, #button2.lit{
+    background:blue;
+}
+#button3:active, #button3.lit{
+    background:red;
+}
+#button4:active, #button4.lit {
+    background:yellow;
+}
+#button5:active, #button5.lit {
+    background:orange;
+}
+#button6:active, #button6.lit {
+    background:cyan;
+   
+}
+
+#button7:active, #button7.lit {
+    background:slateblue;
+}
+#button8:active, #button8.lit {
+    background:darkorange;
+}
+
+.mountain{
+   position: absolute;
+      bottom: 25%;
+      right: 40px;
+      border-right: 150px solid transparent; 
+      border-bottom: 200px solid lightsteelblue; 
+      border-left: 150px solid transparent; 
+      z-index: -2;
+  
+}
+.GroundSnow{
+  position:absolute;
+  background:	#FFFAFA;
+  height: 200px;
+  width:100%;
+  bottom:0;
+  left:0px;
+  z-index:-1;
+}
+
+
+
+
+
+  
+      
