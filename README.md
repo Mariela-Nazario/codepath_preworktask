@@ -45,7 +45,7 @@ User Looses after one inccorect guess:
 <img src=http://g.recordit.co/JhjizavLBz.gif width=200><br>
 
 ![](gif2-link-here)
-![](gif3-link-here)
+![](http://g.recordit.co/JhjizavLBz.gif)
 ![](gif4-link-here)
 
 ## Reflection Questions
