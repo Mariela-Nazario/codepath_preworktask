@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Hello</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <h1 class="title" id = "Title">Light and Sound Memory Game</h1>
+        <h1  class = "hidden" id = "title2"> Juego de Memoria de Luz y Sonido
+          
+        </h1>
+
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+          <h2></h2>
+          <p id = "gameInstruction" >
+            Welcome to the Light and Sound Memory Game! Repeat the pattern by
+            pressing the buttons.
+          </p>
+          <p id = "gameInstruction2" class = "hidden">
+            ¡Bienvenidos al Juego de Memoria de Luz y Sonido! Repite el patrón  al presionar  los botones.
+          </p>
+          <!-- ADD BUTTON HERE -->
+          <button id="startBtn" onclick="startGame()">Start</button>
+          <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+          <button id="langBtn" onclick = "changeLang()"> Español </button>
+         
+          
+
+          <div id="gameButtonArea">
+            <button
+              id="button1"
+              onclick="guess(1)"
+              onmousedown="startTone(1)"
+              onmouseup="stopTone(1)"
+            
+             >
+             <img src ="https://cdn.glitch.global/c24d1caf-d5a6-485e-9593-f3c0bb34cdb4/snow.PNG?v=1650669575592"
+            
+            width = "100"    
+            height ="150" 
+  
+            class = "hidden"
+            id = "img1"
+            >
+            
+            
+            
+            </button>
+            <button
+              id="button2"
+              onclick="guess(2)"
+              onmousedown="startTone(2)"
+              onmouseup="stopTone(2)"
+                  
+            >
+             
+             <img src ="https://cdn.glitch.global/c24d1caf-d5a6-485e-9593-f3c0bb34cdb4/pen.PNG?v=1650662748197"
+            alt = "pen"
+            width = "125"    
+            height ="150" 
+           
+            
+             
+            class = "hidden"
+            id = "img2"
+                 >
+         
+            
+            </button>
+            <button
+              id="button3"
+              onclick="guess(3)"
+              onmousedown="startTone(3)"
+              onmouseup="stopTone(3)"
+            >
+           
+            <img src ="https://cdn.glitch.global/c24d1caf-d5a6-485e-9593-f3c0bb34cdb4/pen2.PNG?v=1650666726300"
+            alt = "pen2"
+            width = "165"    
+            height ="170" 
+  
+            class = "hidden"
+            id = "img3"
+                 >
+            
+            
+            
+            </button>
+            <button
+              id="button4"
+               onclick="guess(4)"
+              onmousedown="startTone(4)"
+              onmouseup="stopTone(4)"
+            >
+            
+            <img src ="https://cdn.glitch.global/c24d1caf-d5a6-485e-9593-f3c0bb34cdb4/g2.PNG?v=1650667498843"
+            alt = "pen2"
+            width = "125"    
+            height ="150" 
+  
+            class = "hidden"
+            id = "img4"
+            >
+            
+            
+            </button>
+            <button
+              id="button5"
+               onclick="guess(5)"
+              onmousedown="startTone(5)"
+              onmouseup="stopTone(5)"
+            >
+           <img src ="https://cdn.glitch.global/c24d1caf-d5a6-485e-9593-f3c0bb34cdb4/ginger.PNG?v=1650667024506"
+            alt = "pen2"
+            width = "165"    
+            height ="170" 
+  
+            class = "hidden"
+            id = "img5"
+            >
+            
+            </button>
+            <button
+              id="button6"
+              
+              onclick="guess(6)"
+              onmousedown="startTone(6)"
+              onmouseup="stopTone(6)"
+             
+            >
+            
+            <img src ="https://cdn.glitch.global/c24d1caf-d5a6-485e-9593-f3c0bb34cdb4/teddybear.PNG?v=1650638925428"
+            alt = "teddy"
+            width = "125"    
+            height ="150" 
+           
+            
+             
+            class = "hidden"
+            id = "img6"
+                 >
+         
+            
+            
+            </button>
+            <button
+              id="button7"
+               onclick="guess(7)"
+              onmousedown="startTone(7)"
+              onmouseup="stopTone(7)"
+            >
+              <img src ="https://cdn.glitch.global/c24d1caf-d5a6-485e-9593-f3c0bb34cdb4/snowman.PNG?v=1650669172317"
+            alt = "snowman"
+            width = "90"    
+            height ="125" 
+  
+            class = "hidden"
+            id = "img7"
+            >
+            
+            </button>
+            <button
+              id="button8"
+               onclick="guess(8)"
+              onmousedown="startTone(8)"
+              onmouseup="stopTone(8)"
+            > 
+            <img src ="https://cdn.glitch.global/c24d1caf-d5a6-485e-9593-f3c0bb34cdb4/reindeer.PNG?v=1650669561371"
+            
+            width = "75"    
+            height ="120" 
+  
+            class = "hidden"
+            id = "img8"
+            >
+            
+          
+
+            </button>
+            
+          </div>
+          <div class= "mountain">
+          <div class = "snowcap"> </div>
+          
+          </div>
+          
+          <div class = "GroundSnow">
+            
+          </div>
+          
+          
+          
+        </div>
+      </div>
+    </div>
+   
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+  </body>
+</html>
