@@ -44,7 +44,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 User Looses after one inccorect guess:
 ![](http://g.recordit.co/mFdDFfdUs6.gif)
 User Looses after three mistakes:
-![](https://recordit.co/YPMqN2SEEE)
+![](http://g.recordit.co/YPMqN2SEEE.gif)
 User Wins
 ![](gif4-link-here)
 
