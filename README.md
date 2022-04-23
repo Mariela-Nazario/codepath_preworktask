@@ -53,12 +53,12 @@ Button that changes the language
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
- https://www.youtube.com/watch?v=8Y9uoSYvtnI
-https://www.w3schools.com/
-Stack Overflow
-https://developer.mozilla.org/en-US/docs/Web/CSS/bottom
-https://pixabay.com/
-https://www.rapidtables.com/web/color/cyan-color.html
+  >  https://www.youtube.com/watch?v=8Y9uoSYvtnI
+  > https://www.w3schools.com/
+  > Stack Overflow
+> https://developer.mozilla.org/en-US/docs/Web/CSS/bottom
+> https://pixabay.com/
+> https://www.rapidtables.com/web/color/cyan-color.html
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
