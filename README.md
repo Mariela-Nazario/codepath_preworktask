@@ -48,7 +48,7 @@ User Looses after three mistakes:
 User Wins
 ![](http://g.recordit.co/a4Cq28fzWW.gif)
 Button that changes the language 
-![](http://http://g.recordit.co/QvvjDTWr0R.gif)
+![](http://g.recordit.co/1SuNDe1qsM.gif)
 
 
 ## Reflection Questions
