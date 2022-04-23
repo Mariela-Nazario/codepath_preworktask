@@ -42,10 +42,10 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 User Looses after one inccorect guess:
-<img src=http://g.recordit.co/JhjizavLBz.gif width=200><br>
-
-![](gif2-link-here)
-![](http://g.recordit.co/JhjizavLBz.gif)
+![](http://g.recordit.co/mFdDFfdUs6.gif)
+User Looses after three mistakes:
+![](http://g.recordit.co/ukFcYBGPvE.gif)
+User Wins
 ![](gif4-link-here)
 
 ## Reflection Questions
